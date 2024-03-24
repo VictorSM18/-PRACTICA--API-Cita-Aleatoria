@@ -1,0 +1,88 @@
+body {
+    font-family: "Outfit", sans-serif;
+    background-color: #111729;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+#main-container {
+    background-color: #20293a;
+    background-image: url("assets/bg-image-random-quote.svg");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    margin-inline: 1rem;
+    padding: 1.5rem 1rem;
+    width: 80%;
+    height: 27%;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.author {
+    color: white;
+}
+
+.tag-list {
+    color: #6466e9;
+    font-size: 0.625rem;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.tag {
+    padding: 0.125rem 1rem;
+    border: 1px solid #6466e9;
+    border-radius: 1rem;
+}
+
+.quote {
+    color: #97a3b6;
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+button {
+    border: none;
+    background-color: #111729;
+    padding: 1.25rem 1.5rem;
+}
+
+#options {
+    display: flex;
+}
+
+.random {
+    background-image: url("assets/Regroup.svg");
+    background-repeat: no-repeat;
+    background-size: 2rem;
+    background-position: center;
+    border: 1px solid #4a5567;
+    border-radius: 0.5rem 0 0 0.5rem;
+    cursor: pointer;
+}
+
+.random:hover {
+    filter: brightness(1.5);
+}
+
+.copy {
+    background-image: url("assets/link.svg");
+    background-repeat: no-repeat;
+    background-size: 2rem;
+    background-position: center;
+    border: 1px solid #4a5567;
+    border-radius: 0 0.5rem 0.5rem 0;
+    cursor: pointer;
+}
+
+.copy:hover {
+    filter: brightness(1.5);
+}
