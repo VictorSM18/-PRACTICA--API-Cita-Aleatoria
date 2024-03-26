@@ -13,10 +13,11 @@ body {
     background-image: url("assets/bg-image-random-quote.svg");
     background-repeat: no-repeat;
     background-position: bottom;
-    margin-inline: 1rem;
-    padding: 1.5rem 1rem;
-    width: 80%;
-    height: 27%;
+    background-size: cover;
+    margin-inline: 2rem;
+    padding: 1rem 1rem;
+    max-width: 50rem;
+    height: auto;
     border-radius: 1rem;
     display: flex;
     flex-direction: column;
@@ -34,12 +35,15 @@ body {
     display: flex;
     justify-content: center;
     gap: 0.5rem;
+    flex-wrap: wrap;
 }
 
 .tag {
     padding: 0.125rem 1rem;
     border: 1px solid #6466e9;
     border-radius: 1rem;
+    display: flex;
+    align-items: center;
 }
 
 .quote {
